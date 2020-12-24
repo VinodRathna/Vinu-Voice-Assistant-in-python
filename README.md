@@ -67,4 +67,5 @@ press tab until it shows PyAudio.whl or something
 
 and press enter.
 
+Sorry we can't make this voice assistant installable.
 Thank you.
