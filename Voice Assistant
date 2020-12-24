@@ -13,6 +13,7 @@ import ctypes
 import time
 import requests
 import shutil
+import smtplib
 from twilio.rest import Client
 from clint.textui import progress
 from urllib.request import urlopen
@@ -218,7 +219,7 @@ if __name__ == '__main__':
             speak("If you talk then definately your human.")
 
         elif "why you came to world" in query:
-            speak("Thanks to Gaurav. further It's a secret")
+            speak("Thanks to Vinod. further It's a secret")
 
         elif 'power point presentation' in query:
             speak("opening Power Point presentation")
@@ -343,7 +344,7 @@ if __name__ == '__main__':
 
             wishMe()
             speak("vinu in your service Mister")
-            speak(assname)
+            speak(asiname)
 
         elif "weather" in query:
 
@@ -394,7 +395,7 @@ if __name__ == '__main__':
         elif "Good Morning" in query:
             speak("A warm" + query)
             speak("How are you Mister")
-            speak(assname)
+            speak(asiname)
 
         # most asked question from google Assistant
         elif "will you be my gf" in query or "will you be my bf" in query:
